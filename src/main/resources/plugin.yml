@@ -1,0 +1,17 @@
+# Replace "kit" with the name of your command.
+commands:
+  matterlink:
+    alias:
+      - ml
+    description: main matterlink command
+    usage: /matterlink <connect|disconnect|reload|permAccept>
+  authenticate:
+    alias:
+      - auth
+    description: accept or reeject authentication requests to your minecraft user from matterbridge
+    usage: /authenticate <accept|reject> <code> <level>
+  say:
+    description: broadcast a message
+    usage: /say msg
+
+# TODO: matterlink start, matterlink stop, matterliink reload
